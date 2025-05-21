@@ -1,6 +1,8 @@
 # ProductManagement.API
 
 A clean and modular ASP.NET Core Web API for managing products with authentication and authorization using JWT and Identity.
+The API allows clients to manage a catalog of products, register and authenticate users using JWT tokens, and apply role-based authorization.
+
 
 ---
 
@@ -27,15 +29,3 @@ A clean and modular ASP.NET Core Web API for managing products with authenticati
 - Swagger (for API documentation)
 
 ---
-
-##  Project Structure
-ProductManagement.API/
-|
-├── Controllers/ # API Controllers
-├── DTOs/ # Data Transfer Objects
-├── Models/ # Application Models (e.g., ApplicationUser, Product)
-├── Repositories/ # Repository layer (Interfaces + Implementations)
-├── Services/ # Service layer (Interfaces + Implementations)
-├── Mappings/ # AutoMapper Profiles
-├── appsettings.json # Configuration (e.g., DB connection, JWT)
-└── Program.cs & Startup.cs # App Configuration & Dependency Injection
